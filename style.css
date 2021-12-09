@@ -148,6 +148,8 @@ body {
     display: flex;
     align-items: center;
     height: 300px;
+    transform: translateX(0);
+    transition: all 0.8s ease-in-out;
 }
 
 .movie-list-item {
@@ -173,6 +175,7 @@ body {
 
 .movie-list-wrapper {
     position: relative;
+    overflow: hidden;
 }
 
 .movie-list-item-img {
@@ -180,6 +183,7 @@ body {
     height: 200px;
     object-fit: cover;
     transition: all 0.8s ease-in-out;
+    border-radius: 20px;
 }
 
 .movie-list-item-title {
