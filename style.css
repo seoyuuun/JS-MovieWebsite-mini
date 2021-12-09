@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .logo-container {
-    flex : 1;
+    flex: 1;
 }
 
 .logo {
@@ -44,18 +44,18 @@ body {
 }
 
 .menu-container {
-    flex : 6;
+    flex: 6;
 }
 
 .profile-container {
-    flex : 2;
+    flex: 2;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 .profile-text-container {
-    margin: 0 20px ;
+    margin: 0 20px;
 }
 
 .profile-picture {
@@ -88,6 +88,7 @@ body {
     right: 1px;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 1s ease-in-out;
 }
 
 .sidebar {
@@ -122,6 +123,7 @@ body {
     height: 50vh;
     background-color: tomato;
     padding: 50px;
+    margin-bottom: 40px;
 }
 
 .featured-title {
@@ -231,6 +233,59 @@ body {
     top: 100px;
     right: 0;
     color: lightgray;
-    opacity: 0.5;
+    opacity: 0.4;
     cursor: pointer;
+}
+
+.arrow:hover {
+    color: white;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+/* --------- */
+
+.container.active {
+    background-color: white;
+}
+
+.sidebar.active {
+    background-color: white;
+}
+
+.movie-list-title.active {
+    color: black;
+}
+
+.navbar.active {
+    background-color: white;
+    color: black;
+}
+
+.navbar-container.active {
+    background-color: white;
+    color: black;
+}
+
+.left-menu-icon.active {
+    color: black;
+}
+
+.toggle.active {
+    background-color: rgb(133, 133, 133);
+}
+
+.toggle-ball.active {
+    background-color: white;
+    transform: translateX(-20px);
+}
+
+.toggle-icon.active {
+    color: rgb(255, 230, 37);
+}
+
+@media only screen and (max-width: 940px) {
+    .menu-container {
+        display: none;
+    }
 }
