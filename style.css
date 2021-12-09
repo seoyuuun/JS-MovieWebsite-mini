@@ -27,7 +27,7 @@ body {
 
 .logo {
     font-size: 30px;
-    color: red;
+    color: rgb(89, 164, 88);
 }
 
 .menu-list {
@@ -135,7 +135,7 @@ body {
 }
 
 .featured-button {
-    background-color: red;
+    background-color: rgb(89, 164, 88);
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
@@ -168,7 +168,7 @@ body {
 }
 
 .movie-list-container {
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .movie-list-wrapper {
@@ -208,7 +208,7 @@ body {
 
 .movie-list-item-button {
     padding: 10px;
-    background-color: red;
+    background-color: rgb(89, 164, 88);
     color: white;
     border-radius: 10px;
     outline: none;
